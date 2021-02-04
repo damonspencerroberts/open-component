@@ -1,0 +1,78 @@
+.card {
+  display: flex;
+  align-items: center;
+  background-color: rgb(250, 250, 250);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.date {
+  padding: 10px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.date p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.date-day {
+  opacity: 0.4;
+  font-size: 1rem;
+}
+
+.date-num {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+.date-month {
+  color: rgb(89, 255, 227);
+  font-size: 1rem;
+}
+.content {
+  flex-grow: 1;
+  padding: 10px 20px;
+}
+
+.content h3, .content p {
+  margin: 0;
+}
+
+.enrollment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px 20px;
+}
+
+.waiter {
+  padding: 6px 18px;
+  color: rgb(55,55,55);
+  border-radius: 25px;
+  font-weight: 700;
+  margin: 20px 0;
+  width: 100px;
+  text-align: center;
+}
+
+.pending {
+  background-color: pink;
+}
+
+.confirmed {
+  background-color: rgb(130, 222, 235);
+}
+
+.on-the-way {
+  background-color: rgb(130, 236, 130);
+}
+
+.users {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

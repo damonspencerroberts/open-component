@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  margin: 0;
+}
+
+.navigation-p {
+  margin-right: 25px;
+  padding-bottom: 10px;
+  opacity: 0.6;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.navigation-p:hover {
+  opacity: 1;
+}
+
+.active {
+  border-bottom: 3px solid rgb(89, 255, 227);
+  opacity: 1;
+}
